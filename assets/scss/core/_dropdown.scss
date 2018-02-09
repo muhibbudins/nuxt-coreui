@@ -51,6 +51,7 @@
   .navbar-nav {
     .dropdown-menu {
       position: absolute;
+      z-index: $zindex-sticky;
     }
     // Menu positioning
     //
