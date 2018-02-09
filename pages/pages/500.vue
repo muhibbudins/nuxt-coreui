@@ -4,9 +4,9 @@
       <b-row class="justify-content-center">
         <b-col md="6">
           <div class="clearfix">
-            <h1 class="float-left display-3 mr-4">404</h1>
-            <h4 class="pt-3">Oops! You're lost.</h4>
-            <p class="text-muted">The page you are looking for was not found.</p>
+            <h1 class="float-left display-3 mr-4">500</h1>
+            <h4 class="pt-3">Houston, we have a problem!</h4>
+            <p class="text-muted">The page you are looking for is temporarily unavailable.</p>
           </div>
           <b-input-group>
             <b-input-group-prepend>
@@ -27,6 +27,7 @@
 
 <script>
 export default {
-  name: 'Page404'
+  name: 'Page 500',
+  layout: 'clean'
 }
 </script>

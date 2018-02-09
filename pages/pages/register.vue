@@ -56,6 +56,7 @@
 
 <script>
 export default {
-  name: 'Register'
+  name: 'Register',
+  layout: 'clean'
 }
 </script>
