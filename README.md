@@ -1,8 +1,10 @@
 ![NuxtJS + CoreUI](static/img/nuxtcoreui.jpg)
 
-# NuxtJS + CoreUI
+# NuxtJS + CoreUI = NuxtUI
 
-> Nuxt.js project
+NuxtUI is CoreUI Vue Free Bootstrap Admin Template and combined with NuxtJS.
+
+[Official CoreUI Vue](https://github.com/mrholek/CoreUI-Vue)
 
 ## Build Setup
 

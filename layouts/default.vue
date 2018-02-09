@@ -6,7 +6,7 @@
       <main class="main">
         <breadcrumb :list="list"/>
         <div class="container-fluid">
-          <router-view></router-view>
+          <nuxt />
         </div>
       </main>
       <AppAside/>
