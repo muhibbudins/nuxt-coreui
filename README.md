@@ -6,6 +6,12 @@ NuxtUI is CoreUI Vue Free Bootstrap Admin Template and combined with NuxtJS.
 
 [Official CoreUI Vue](https://github.com/mrholek/CoreUI-Vue)
 
+## Todo
+
+- Fix link and views
+- Create sample auth middleware
+- Create sample CRUD views
+
 ## Build Setup
 
 ``` bash
