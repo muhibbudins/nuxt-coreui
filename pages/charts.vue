@@ -34,13 +34,14 @@
     </b-card-group>
   </div>
 </template>
+
 <script>
-import BarExample from './charts/BarExample'
-import LineExample from './charts/LineExample'
-import DoughnutExample from './charts/DoughnutExample'
-import RadarExample from './charts/RadarExample'
-import PieExample from './charts/PieExample'
-import PolarAreaExample from './charts/PolarAreaExample'
+import BarExample from '~/components/charts/BarExample'
+import LineExample from '~/components/charts/LineExample'
+import DoughnutExample from '~/components/charts/DoughnutExample'
+import RadarExample from '~/components/charts/RadarExample'
+import PieExample from '~/components/charts/PieExample'
+import PolarAreaExample from '~/components/charts/PolarAreaExample'
 
 export default {
   name: 'charts',
