@@ -8,7 +8,7 @@ NuxtUI is CoreUI Vue Free Bootstrap Admin Template and combined with NuxtJS.
 
 ## Todo
 
-- Fix link and views
+- ~~Fix link and views~~
 - Create sample auth middleware
 - Create sample CRUD views
 
