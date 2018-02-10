@@ -1,11 +1,13 @@
 # static
 .DS_Store
 
+
 # dependencies
 node_modules
 
 # logs
 npm-debug.log
+yarn.lock
 
 # Nuxt build
 .nuxt
