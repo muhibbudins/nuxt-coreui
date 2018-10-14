@@ -15,7 +15,7 @@ module.exports = {
       'type': 'string',
       'required': false,
       'message': 'Project description :',
-      'default': 'A Nuxt.js project'
+      'default': 'My Nuxt.js + Core UI project'
     },
     author: {
       'type': 'string',

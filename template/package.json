@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-coreui",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "Unofficial NuxtJS and CoreUI project",
-  "author": "Muhibbudin Suretno",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
