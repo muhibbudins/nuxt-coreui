@@ -44,3 +44,6 @@ $ npm start
 - [x] Extend SCSS to Style Resources
 - [x] Improve performance and code style
 
+## License
+
+This project under [NuxtJS License](https://github.com/nuxt/nuxt.js/blob/dev/LICENSE) and [CoreUI License](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE)
