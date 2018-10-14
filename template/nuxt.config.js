@@ -1,13 +1,25 @@
+const changeLoaderOptions = loaders => {
+  if (loaders) {
+    for (const loader of loaders) {
+      if (loader.loader === 'sass-loader') {
+        Object.assign(loader.options, {
+          includePaths: ['./assets']
+        })
+      }
+    }
+  }
+}
+
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: 'NuxtJS - CoreUI',
+    title: 'Nuxt CoreUI',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'Unofficial Nuxt + CoreUI project, free to use boilerplate for every need.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -36,19 +48,42 @@ module.exports = {
   ],
 
   /*
-  ** Import Plugin 
-   */
+  ** Plugins to load before mounting the App
+  */
   plugins: [
-    { src: '~plugins/bootstrap-vue.js', ssr: true }
+    
   ],
+
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+    // Doc: https://github.com/nuxt-community/axios-module#usage
+    '@nuxtjs/axios',
+    // Doc: https://github.com/bootstrap-vue/bootstrap-vue
+    'bootstrap-vue/nuxt'
+  ],
+  /*
+  ** Axios module configuration
+  */
+  axios: {
+    // See https://github.com/nuxt-community/axios-module#options
+  },
 
   /*
   ** Build configuration
   */
   build: {
     /*
-    ** Run ESLint on save
+    ** You can extend webpack config here
     */
+    styleResources: {
+      scss: './assets/scss/style.scss',
+      options: {
+        // See https://github.com/yenshih/style-resources-loader#options
+        // Except `patterns` property
+      }
+    },
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
@@ -69,18 +104,6 @@ module.exports = {
         }
 
         config.module.rules.forEach(rule => changeLoaderOptions(rule.use))
-      }
-    }
-  }
-}
-
-function changeLoaderOptions (loaders) {
-  if (loaders) {
-    for (const loader of loaders) {
-      if (loader.loader === 'sass-loader') {
-        Object.assign(loader.options, {
-          includePaths: ['./assets']
-        })
       }
     }
   }
