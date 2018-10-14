@@ -1,3 +1,5 @@
+![Nuxt CoreUI Project](nuxtcoreui.jpg)
+
 # NuxtJS + CoreUI
 
 Unofficial Nuxt + CoreUI project, free to use boilerplate for every need. For more information about Vue CoreUI you can see at [Official Vue CoreUI](https://github.com/mrholek/CoreUI-Vue).
@@ -37,9 +39,8 @@ $ npm start
 
 - [x] Fix link and views
 - [x] Updgrade to latest NuxtJS boilerplate
+- [x] Using Express as server
 - [x] Move installation to Vue CLI
 - [x] Extend SCSS to Style Resources
 - [x] Improve performance and code style
-- [ ] Create sample auth middleware
-- [ ] Create sample CRUD views
 
