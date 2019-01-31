@@ -15,6 +15,7 @@
     "nuxt": "^2.0.0",
     "express": "^4.16.3",
     "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/style-resources": "^0.1.1",
     "bootstrap-vue": "^2.0.0-rc.1",
     "chart.js": "^2.7.1",
     "flag-icon-css": "^2.9.0",
