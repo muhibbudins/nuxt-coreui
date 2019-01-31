@@ -71,19 +71,19 @@ module.exports = {
   },
 
   /*
+  ** Style resources configuration
+  */
+  styleResources: {
+    scss: './assets/scss/style.scss'
+  },
+
+  /*
   ** Build configuration
   */
   build: {
     /*
     ** You can extend webpack config here
     */
-    styleResources: {
-      scss: './assets/scss/style.scss',
-      options: {
-        // See https://github.com/yenshih/style-resources-loader#options
-        // Except `patterns` property
-      }
-    },
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
