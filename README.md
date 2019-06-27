@@ -4,6 +4,8 @@
 
 Unofficial Nuxt + CoreUI project, free to use boilerplate for every need. For more information about Vue CoreUI you can see at [Official Vue CoreUI](https://github.com/mrholek/CoreUI-Vue).
 
+[Demo Here](https://nuxt-coreui.netlify.com/)
+
 ## Usage
 
 If you want to use this boilerplate, make sure you already installed [NodeJS](https://nodejs.org/en/) and [Vue CLI](https://www.npmjs.com/package/vue-cli) on your local machine. And then, you can use below command to download this boilerplate.
