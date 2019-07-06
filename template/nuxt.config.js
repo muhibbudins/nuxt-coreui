@@ -27,6 +27,13 @@ module.exports = {
   },
 
   /*
+  ** Set the link active classes
+  */
+  router: {
+    linkActiveClass: 'active open'
+  },  
+
+  /*
   ** Customize the progress bar color
   */
   loading: { color: '#42A5CC' },
