@@ -145,7 +145,7 @@
             label-for="basicTextarea"
             :label-cols="3"
             :horizontal="true">
-            <b-form-input id="basicTextarea" :textarea="true" :rows="9" placeholder="Content.."></b-form-input>
+            <b-form-textarea id="basicTextarea" :textarea="true" :rows="9" placeholder="Content.."></b-form-textarea>
           </b-form-group>
           <b-form-group
             label="Select"
